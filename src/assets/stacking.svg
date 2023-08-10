@@ -1,0 +1,43 @@
+<svg width="80" height="50" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.5 42.5v-35h44v35h-44z" fill="url(#paint0_radial_price)"></path>
+    <path d="M17.5 42.5v-35h44v35h-44z" stroke="url(#paint1_radial_price)"></path>
+    <path d="M17.5 42.5v-35h44v35h-44z" stroke="url(#paint2_radial_price)"></path>
+    <path d="M17.5 7.5s.227 10.4054 8.5 20.128" stroke="url(#paint3_linear_price)"></path>
+    <path d="M61.5 42.5s-9.3598.5-19.6639-3.688c-3.3389-1.357-6.7243-3.1538-9.8361-5.5327"
+        stroke="url(#paint4_linear_price)"></path>
+    <circle cx="28.5" cy="30.5" r="4" fill="url(#paint5_linear_price)" stroke="url(#paint6_radial_price)"></circle>
+    <defs>
+        <radialGradient id="paint0_radial_price" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+            gradientTransform="matrix(34.02743 -30.5 38.60397 43.06866 19.4725 43)">
+            <stop stop-color="#002EFF"></stop>
+            <stop offset="1" stop-color="#002EFF" stop-opacity="0"></stop>
+        </radialGradient>
+        <radialGradient id="paint1_radial_price" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+            gradientTransform="matrix(8.49999 12.49999 -15.62502 10.62502 17.5 8)">
+            <stop stop-color="#F80196"></stop>
+            <stop offset="1" stop-color="#F80196" stop-opacity="0"></stop>
+        </radialGradient>
+        <radialGradient id="paint2_radial_price" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+            gradientTransform="matrix(-26.99997 -.50004 .62505 -33.75001 61.5 42.5)">
+            <stop stop-color="#F80196"></stop>
+            <stop offset="1" stop-color="#F80196" stop-opacity="0"></stop>
+        </radialGradient>
+        <radialGradient id="paint6_radial_price" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+            gradientTransform="matrix(6 -5 5 6 26 33)">
+            <stop stop-color="#FF4D00"></stop>
+            <stop offset="1" stop-color="#FFE600"></stop>
+        </radialGradient>
+        <linearGradient id="paint3_linear_price" x1="20" y1="15.5" x2="26.5" y2="28" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#F80196"></stop>
+            <stop offset="1" stop-color="#FFBF01"></stop>
+        </linearGradient>
+        <linearGradient id="paint4_linear_price" x1="31.5" y1="32.5" x2="49" y2="41" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFB301"></stop>
+            <stop offset="1" stop-color="#F80196"></stop>
+        </linearGradient>
+        <linearGradient id="paint5_linear_price" x1="28.5" y1="26" x2="28.5" y2="35" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFE600"></stop>
+            <stop offset="1" stop-color="#FF4D00" stop-opacity=".44"></stop>
+        </linearGradient>
+    </defs>
+</svg>

@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react'
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Homepage from './screens/Homepage';
+import Headers from './screens/Headers';
+import "./App.css"
+import Frontend from './screens/Frontend';
+
+
+
 
 function App() {
+  const [mode,setDarkmode]=useState();
+
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+ 
+ <div style={{backgroundColor:mode?"black":"white",display:"flex"}}>
+     <Router>
+  <Headers/>
+  <Routes>
+ 
+    <Route path="/" element={<Homepage/>}/>
+    <Route path="/frontend" element={<Frontend/>}/>
+   
+
+  </Routes>
+</Router>
+ </div>
+
+  )
 }
 
-export default App;
+export default App
