@@ -5,6 +5,7 @@ import Darkmode from "./darkmode";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import NightlightRoundIcon from "@mui/icons-material/NightlightRound";
 import LanguageIcon from "@mui/icons-material/Language";
+import { Link } from 'react-router-dom';
 
 import { useDarkMode } from "./darkmode";
 function Headers() {
@@ -79,20 +80,17 @@ function Headers() {
           marginTop: "20px",
         }}
       >
-        <img
-          style={{ height: "40px", marginRight: "20px" }}
-          src={require("../assets/logo.svg").default}
-          alt="Logo"
-        />
+  
         <p
           style={{
             color: color,
             fontSize: "20px",
             fontWeight: "bolder",
             paddingTop: "10px",
+            marginLeft:"20px"
           }}
         >
-          DOPEX
+       Flash Date
         </p>
    
       </div>
@@ -123,7 +121,7 @@ function Headers() {
             fontWeight: "bolder",
           }}
         >
-          Learn
+<Link to="/policy">Policy</Link>
         </p>
         <p
           style={{
@@ -190,7 +188,7 @@ function Headers() {
           onMouseLeave={handleMouseLeave}
           style={styles.usedopexstyles}
         >
-          <p style={{ paddingTop: "20px" }}>Use Dopex</p>
+          <p style={{ paddingTop: "20px" }}>Flash Date</p>
         </div>
       </div>
     </div>

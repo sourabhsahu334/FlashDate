@@ -68,7 +68,7 @@ function Frontend() {
             fontWeight: "bolder",
           }}
         >
-         Dopex Frontends
+        Flash Date
         </p>
          <p style={{ color: isDarkMode ? "#8aacf4" : "rgba(0,0,0,.5)",fontSize:"20px" }}>
          Users can choose a frontend from the different frontend operators for Dopex below.

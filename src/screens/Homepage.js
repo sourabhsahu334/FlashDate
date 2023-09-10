@@ -74,7 +74,7 @@ function Homepage() {
       </p>
       <div style={{ display: "flex" }}>
         <div style={{ ...styles.usedopexstyles, marginRight: "20px" }}>
-          <p style={{ paddingTop: "15px" }}>Use Dopex</p>
+          <p style={{ paddingTop: "15px" }}>Flash Date</p>
         </div>
     <a href="https://docs.dopex.io/">
     <div className="documationbutton" >
